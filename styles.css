@@ -1,0 +1,65 @@
+body {
+  font-family: "Futura", sans-serif;
+  font-size: 14px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.signin-button {
+  border-radius: 2px;
+  padding: 10px 30px;
+  background-color: #4287f5;
+  color: white;
+}
+
+.logo-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.logo {
+  margin: auto;
+  margin-top: 50px;
+}
+
+.search-parent {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.search-bar {
+}
+
+.search-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+}
+
+.lucky {
+}
+
+.botnav {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #e6e6e6;
+}

@@ -1,24 +1,50 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
     <title>Google</title>
-</head>
-<body>
-    <a href="">About</a>
-    <a href="">Store</a>
-    <a href="">Gmail</a> 
-    <a href="">Images</a>
-    <a href=""></a> <!--Navigation buttons-->
-    <a href=""></a> <!--Sign in button-->
-    <img src="googlelogo_color_272x92dp.png">
-    <form>
-        <label>
-            <input name="">
-        </label>
-    </form>
-    <button name="">Google Search</button>
-    <button name="">I'm Feeling Lucky</button>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-</body>
+  <body>
+    <ul>
+      <li><a href="">About</a></li>
+      <li><a href="">Store</a></li>
+      <li style="float: right"><a class="signin-button" href="">Sign in</a></li>
+      <li style="float: right">
+        <a href=""><img src="outline_apps_lgray_24dp.png" /></a>
+      </li>
+      <li style="float: right"><a href="">Images</a></li>
+      <li style="float: right"><a href="">Gmail</a></li>
+    </ul>
 
+    <div class="logo-div">
+      <img class="logo" src="googlelogo_color_272x92dp.png" />
+    </div>
+
+    <div class="search-parent">
+      <form>
+        <div class="search-bar">
+          <label>
+            <input type="text" placeholder="Search string" name="search-bar" />
+          </label>
+        </div>
+        <div class="search-buttons">
+          <button class="search">Google Search</button>
+          <button class="lucky">I'm Feeling Lucky</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="botnav">
+      <ul>
+        <li><a href="">Advertising</a></li>
+        <li><a href="">Business</a></li>
+        <li><a href="">How Search works</a></li>
+        <li style="float: right"><a href="">Settings</a></li>
+        <li style="float: right"><a href="">Terms</a></li>
+        <li style="float: right"><a href="">Privacy</a></li>
+      </ul>
+    </div>
+  </body>
 </html>
