@@ -1,6 +1,7 @@
 body {
-  font-family: "Futura", sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 14px;
+  background-color: white;
 }
 
 ul {
@@ -20,7 +21,7 @@ a {
 }
 
 .signin-button {
-  border-radius: 2px;
+  border-radius: 5px;
   padding: 10px 30px;
   background-color: #4287f5;
   color: white;
@@ -37,18 +38,41 @@ a {
   margin-top: 50px;
 }
 
-.search-parent {
-  display: flex;
-  margin: auto;
-  justify-content: center;
+.search-parent input[type="text"] {
+  width: auto;
+  max-width: 584px;
+  height: 40px;
+  border-radius: 24px;
+  border: 1px solid #e6e6e6;
+  padding-left: 48px;
 }
 
-.search-bar {
+.search-parent {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  padding: 20px;
+}
+
+.search-parent input[type="text"] {
+  width: 584px;
 }
 
 .search-buttons {
+  padding-top: 18px;
   display: flex;
   justify-content: center;
+}
+
+button {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  border: 1px solid #f8f9fa;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #4d4d4d;
+  padding: 8px;
+  margin: 0 5px 0 5px;
 }
 
 .search {
